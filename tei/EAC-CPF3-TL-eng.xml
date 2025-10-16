@@ -68,7 +68,7 @@
                <head>Related Standards</head>
                <p>The standards maintained by the Society of American Archivists’ <ref target="https://www2.archivists.org/groups/technical-subcommittee-on-encoded-archival-standards-ts-eas">Technical Subcommittee on Encoded Archival Standards</ref> (TS-EAS) are XML schemas based on established models developed by the <ref target="https://www.ica.org/en">International Council on Archives</ref> (ICA).</p>
                <p>EAC-CPF is based on the <ref target="https://www.ica.org/en/isaar-cpf-international-standard-archival-authority-record-corporate-bodies-persons-and-families-2nd">International Standard Archival Authority Record for Corporate Bodies, Persons and Families</ref> (ISAAR-CPF). Revisions to the EAD and EAC-CPF standards are being undertaken by TS-EAS based on the requirements of the Society of American Archivists’ standards maintenance schedule and policies, and are not tied to ongoing development of standards by the ICA, though keeping close connections to the ICA <ref target="https://www.ica.org/en/about-egad">Experts Group on Archival Description</ref> as a related standards body.</p>
-               <p>For this reason, the EAC-CPF 2.0 continues to be based on ISAAR(CPF) rather than the draft versions of Records in Contexts. We anticipate that future versions of EAC-CPF and other standards maintained by TS-EAS will take the Records in Contexts - Conceptual Model into account once it is finalized and approved.</p>
+               <!--<p>For this reason, the EAC-CPF 2.0 continues to be based on ISAAR(CPF) rather than the draft versions of Records in Contexts. We anticipate that future versions of EAC-CPF and other standards maintained by TS-EAS will take the Records in Contexts - Conceptual Model into account once it is finalized and approved.</p>-->
                
                <list type="gloss">
                   <label>International Standard Archival Authority Record for Corporate Bodies, Persons and Families (ISAAR(CPF))</label>
@@ -83,6 +83,23 @@
                   <label>Records in Contexts - Conceptual Model (RiC-CM)</label>
                   <item><ref target="https://www.ica.org/en/records-in-contexts-conceptual-model">RiC-CM</ref> is a high-level conceptual model that focuses on intellectually identifying and describing records, the people that created and use(d) them, and the activities pursued by the people that the records both facilitate and document. RiC-CM is maintained by the ICA.</item>
                </list>   
+			   <div xml:id="DesignPrinciples">
+					<head>Design principles</head>
+					<p>The schema is designed to follow the TS-EAS design principles <ref
+							target="https://github.com/SAA-SDT/TS-EAS-subteam-notes/wiki/Design-Principles"
+							>TS-EAS Design Principles</ref>], which prioritize simplicity and
+						connect community needs with the first principle. The goal is a
+						schema that can be customized to meet local requirements without sacrificing
+						interoperability. The schema is designed to be compatible with linked open
+						data principles and responsive to related standards and changing
+						technologies. This is accomplished by reusing data models from existing
+						schemas maintained by TS-EAS such as EAC-CPF and EAD, and ensuring compatibility with external,
+						widely-used ontologies and metadata models such as the Records in Contexts content model (RiC). The Encoded Archival Functions XML
+						schema (henceforth referred to as EAF) has been deliberately designed to
+						offer various options for linking Function descriptions with external
+						entities and provide a bridge between XML and graph data by including a
+						mechanism for encoding semantic and relational data. </p>
+				</div>
             </div>
             <div xml:id="release">
                <head>Release and Revision Notes</head>

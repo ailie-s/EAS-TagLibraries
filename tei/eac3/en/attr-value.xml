@@ -16,6 +16,7 @@
                   <p>corporateBody, family, person</p>
                </div>
                <div type="examples">
-                  <p>See <gi>identity</gi> encoding</p>
+                  <egXML xml:lang="eng"><![CDATA[<entityType value="person"/>]]>
+                  </egXML>
                </div>
             </div>

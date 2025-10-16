@@ -73,6 +73,23 @@
                   <p>Required, repeatable</p>
                </div>
                <div type="examples">
-                 <p>See <gi>identity</gi> encoding</p>
+                 <egXML xml:lang="eng"><![CDATA[<identity>
+		<entityType>
+				corporateBody
+		</entityType>
+		<nameEntry status="authorized">
+				<part>
+						Ballarat Orphanage
+				</part>
+		</nameEntry>
+		<otherEntityTypes>
+				<otherEntityType>
+						<term>
+								Organisation
+						</term>
+				</otherEntityType>
+		</otherEntityTypes>
+</identity>]]>
+                  </egXML>
                </div>
             </div>

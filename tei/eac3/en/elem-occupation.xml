@@ -81,6 +81,14 @@
       <p>Required, repeatable</p>
    </div>
    <div type="examples">
-     <p>See <gi>description</gi> encoding</p>
+     <egXML xml:lang="eng"><![CDATA[<occupations>
+     	<occupation>
+     	      <term>Geologist</term>
+     	</occupation>
+     	<occupation>
+     	      <term>Palaeontologist</term>
+     	</occupation>
+</occupations>]]>
+      </egXML>
    </div>
 </div>

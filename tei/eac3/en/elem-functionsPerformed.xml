@@ -61,6 +61,18 @@
                   <p>Optional, not repeatable</p>
                </div>
                <div type="examples">
-                  <p>See <gi>description</gi> encoding</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <eac:functionsPerformed>
+                        <eac:functionPerformed>
+                           <eac:term>Industrial or Scientific Research</eac:term>
+                        </eac:functionPerformed>
+                        <eac:functionPerformed>
+                           <eac:term>Analytical Services</eac:term>
+                        </eac:functionPerformed>
+                        <eac:functionPerformed>
+                           <eac:term>Advisory or Regulatory Body</eac:term>
+                        </eac:functionPerformed>
+                     </eac:functionsPerformed>
+                  </egXML>
                </div>
             </div>

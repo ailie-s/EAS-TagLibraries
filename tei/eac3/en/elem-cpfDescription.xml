@@ -76,6 +76,17 @@
          repeatable</p>
    </div>
    <div type="examples">
-         <p>See <gi>eac</gi> encoding</p>
+         <egXML xml:lang="eng"><![CDATA[<cpfDescription>
+  	<identity>
+    		<entityType value="person"/>
+    		<nameEntry>
+       			<part localType="familyname">Hill</part>
+       			<part localType="givenname">Dorothy</part>
+    		</nameEntry>
+  	</identity>
+  	<description> [...] </description>
+  	<relations> [...] </relations>
+</cpfDescription>]]>
+      </egXML>
    </div>
 </div>

@@ -62,6 +62,18 @@
       <p>Optional, not repeatable</p>
    </div>
    <div type="examples">
-		<p>See <gi>identity</gi> encoding</p>
+		<egXML xml:lang="eng"><![CDATA[<otherEntityTypes>
+		<otherEntityType>
+				<term>
+						Non-governmental organization
+				</term>
+		</otherEntityType>
+		<otherEntityType>
+				<term>
+						Organization
+				</term>
+		</otherEntityType>
+</otherEntityTypes>]]>
+      </egXML>
    </div>
 </div>
