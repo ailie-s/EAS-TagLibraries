@@ -491,9 +491,163 @@
         <back>
             <div type="appendix" xml:id="appendix1">
                 <div type="exampleText" subtype="eac">
-                    <egXML xml:lang="eng"><![CDATA[<
-    ]]>
+                    <egXML xml:lang="eng"><![CDATA[<eac xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://archivists.org/ns/eac/v3 https://github.com/SAA-SDT/eas-schemas/releases/download/v0.3.0-alpha/eac.xsd" xmlns="https://archivists.org/ns/eac/v3">
+    <control addressLineTypeEncoding="EASList" agentTypeEncoding="EASList" audienceEncoding="EASList" contactLineTypeEncoding="EASList" countryEncoding="iso3166-1-alpha-2" dateEncoding="iso8601" identityTypeEncoding="EASList" languageEncoding="iso639-2b" maintenanceStatus="revised" maintenanceEventTypeEncoding="EASList" maintenanceStatusEncoding="EASList" placeTypeEncoding="EASList" publicationStatus="published" publicationStatusEncoding="EASList" referredEntityTypeEncoding="EASList" relationTypeEncoding="EASList" repositoryEncoding="iso15511" scriptEncoding="iso15924" scriptOfElement="Latn" targetTypeEncoding="EASList" statusEncoding="EASList">
+        <recordId>
+			21159483
+		</recordId>
+        <maintenanceAgency>
+            <agencyCode>
+				NBuU-AR
+			</agencyCode>
+            <agencyName>
+				University Archives
+			</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent maintenanceEventType="revised">
+                <agent agentType="human">
+                    <label>
+						R. Elia
+					</label>
+                </agent>
+                <eventDateTime standardDateTime="2025-10-15"/>
+            </maintenanceEvent>
+        </maintenanceHistory>
+    </control>
+    <cpfDescription>
+        <identity>
+            <entityType value="person"/>
+            <nameEntry audience="external" languageOfElement="eng" scriptOfElement="latn"
+                status="alternative">
+                <part localType="surname">
+					Solum
+				</part>
+                <part localType="forename">
+					Sjanna
+				</part>
+            </nameEntry>
+        </identity>
+    </cpfDescription>
+</eac>]]>
                     </egXML>
+					<egXML xml:lang="eng"><![CDATA[<eac xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://archivists.org/ns/eac/v3 https://github.com/SAA-SDT/eas-schemas/releases/download/v0.3.0-alpha/eac.xsd" xmlns="https://archivists.org/ns/eac/v3">
+    <control addressLineTypeEncoding="EASList" agentTypeEncoding="EASList" audienceEncoding="EASList" contactLineTypeEncoding="EASList" countryEncoding="iso3166-1-alpha-2" dateEncoding="iso8601" identityTypeEncoding="EASList" languageEncoding="iso639-2b" maintenanceStatus="revised" maintenanceEventTypeEncoding="EASList" maintenanceStatusEncoding="EASList" placeTypeEncoding="EASList" publicationStatus="published" publicationStatusEncoding="EASList" referredEntityTypeEncoding="EASList" relationTypeEncoding="EASList" repositoryEncoding="iso15511" scriptEncoding="iso15924" scriptOfElement="Latn" targetTypeEncoding="EASList" statusEncoding="EASList">
+    	<recordId>EACexampleMI</recordId>
+        <maintenanceAgency>
+            <agencyCode>NBuU-AR</agencyCode>
+            <agencyName>University Archives</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent maintenanceEventType="revised">
+                <agent agentType="human">
+                    <label>R. Elia</label>
+                </agent>
+                <eventDateTime standardDateTime="2025-08-28"/>
+            </maintenanceEvent>
+        </maintenanceHistory>
+	</control>
+	<multipleIdentities>
+		<cpfDescription>
+		    <identity identityType="acquired">
+		        <entityType value="person"/>
+		        <nameEntry languageOfElement="ru" scriptOfElement="Latn">
+		            <part localType="élément d'entrée">
+		                Gorki
+		            </part>
+		            <part localType="autre élément">
+		                Maksim
+		            </part>
+		            <useDates>
+		                <dateRange>
+		                    <fromDate standardDate="1892">
+		                        1892
+		                    </fromDate>
+		                    <toDate standardDate="1936">
+		                        1936
+		                    </toDate>
+		                </dateRange>
+		            </useDates>
+		        </nameEntry>
+		    </identity>
+		    <description>
+		        <functionsPerformed>
+		            <functionPerformed>
+		                <term>
+		                    Romancier
+		                </term>
+		            </functionPerformed>
+		        </functionsPerformed>
+		        <languagesUsed>
+		            <languageUsed>
+		                <language languageCode="rus">
+		                    russe
+		                </language>
+		                <writingSystem scriptCode="Cyrl"/>
+		            </languageUsed>
+		        </languagesUsed>
+		        <existDates>
+		            <dateRange>
+		                <fromDate standardDate="1868">
+		                    1868
+		                </fromDate>
+		                <toDate standardDate="1936">
+		                    1936
+		                </toDate>
+		            </dateRange>
+		        </existDates>
+		    </description>
+		</cpfDescription>
+		<cpfDescription>
+		    <identity identityType="given">
+		        <entityType value="person"/>
+		        <nameEntry languageOfElement="rus" scriptOfElement="Latn">
+		            <part localType="élément d'entrée">
+		                Peškov
+		            </part>
+		            <part localType="autre élément">
+		                Aleksej Maksimovič
+		            </part>
+		        </nameEntry>
+		    </identity>
+		    <description>
+		        <places>
+		            <place>
+		                <label>
+		                    Nijni-Novgorod (Russie)
+		                </label>
+		            </place>
+		            <place>
+		               <label>
+		                    Gorki (Russie)
+		               </label>
+		            </place>
+		            <place>
+		                <label valueURI="http://vocab.getty.edu/page/tgn/6006211">
+		                    Union Soviétique
+		                </label>
+		            </place>
+		        </places>
+		        <existDates>
+		            <dateRange>
+		                <fromDate standardDate="1868-03-28">
+		                    28 mars 1868
+		                </fromDate>
+		                <toDate standardDate="1936-06-18">
+		                    18 juin 1936
+		                </toDate>
+		            </dateRange>
+		        </existDates>
+		        <biogHist>
+		            <p>
+		                Élevé par son oncle maternel à Nijni-Novgorod. S'installe à Kazan en 1884. Autodidacte. Premiers contacts avec les milieux marxistes et populistes. Retour à Nijni-Novgorod en 1889 et première arrestation. Entame un premier voyage dans le sud de la Russie en 1891 et s'installe à Tiflis (1891-1892), avant de revenir à Nijni-Novgorod (1893-1895 puis 1898). Arrêté un deuixème fois à Tiflis en 1898. Il se rend pour la première fois à Saint-Pétersbourg en 1899. Arrêté une 3e fois à Nijni-Novgorod en 1901, ce qui provoque une campagne de protestations. Entretient des liens d'amitié avec Cehov et Tol'stoj. Il apporte son soutien financier au Parti social-démocrate et se rapproche des Bolcheviks après 1905. Il s'exile à Capri de 1906 à 1913. Rentré en Russie en 1913, il s'exile de nouveau en 1921 en Allemagne puis en Italie en 1923. Il retourne définitivement en URSS en 1932.
+		            </p>
+		        </biogHist>
+		    </description>
+		</cpfDescription>
+	</multipleIdentities>
+</eac>]]
+					</egXML>
                 </div>
                 <div type="exampleText" subtype="control">
                     <egXML xml:lang="eng"><![CDATA[<control addressLineTypeEncoding="EASList" agentTypeEncoding="EASList" audienceEncoding="EASList" contactLineTypeEncoding="EASList" countryEncoding="iso3166-1-alpha-2" dateEncoding="iso8601" identityTypeEncoding="EASList" languageEncoding="iso639-2b" maintenanceStatus="revised" maintenanceEventTypeEncoding="EASList" maintenanceStatusEncoding="EASList" placeTypeEncoding="EASList" publicationStatus="published" publicationStatusEncoding="EASList" referredEntityTypeEncoding="EASList" relationTypeEncoding="EASList" repositoryEncoding="iso15511" scriptEncoding="iso15924" scriptOfElement="Latn" targetTypeEncoding="EASList" statusEncoding="EASList">
@@ -607,78 +761,101 @@
                 </div>
                 <div type="exampleText" subtype="identity">
                     <egXML xml:lang="eng"><![CDATA[<identity>
-            <entityType value="person"/>
-            <nameEntry audience="external" languageOfElement="eng" scriptOfElement="latn"
-                status="alternative">
-                <part localType="surname">Solum</part>
-                <part localType="forename">Sjanna</part>
-            </nameEntry>
-        </identity>]]>
+	<entityType value="person"/>
+	<nameEntrySet>
+		<nameEntry languageOfElement="de" preferredForm="true" status="authorized"  localType="native">
+			<part localType="surname">
+				Arendt
+			</part>
+			<part localType="firstname">
+				Hannah
+			</part>
+		</nameEntry>
+		<nameEntry languageOfElement="ja" scriptOfElement="Jpan" preferredForm="false" status="authorized" localType="translation">
+			<part localType="surname">
+				アーレント
+			</part>
+			<part localType="firstname">
+				ハナ
+			</part>
+		</nameEntry>
+		<nameEntry languageOfElement="en" preferredForm="false" status="authorized">
+			<part localType="surname">
+				Arendt
+			</part>
+			<part localType="firstname">
+				Hannah
+			</part>
+		</nameEntry>
+		<useDates>
+			<dateRange>
+				<fromDate standardDate="1906-10-14">
+					14.10.1906
+				</fromDate>
+				<toDate standardDate="1975-12-04">
+					04.12.1975
+				</toDate>
+			</dateRange>
+		</useDates>
+	</nameEntrySet>
+</identity>]]>
                     </egXML>
-                    <egXML xml:lang="eng"><![CDATA[<identity>
-            <entityType value="corporateBody"/>
-            <nameEntry scriptOfElement="Latn" languageOfElement="eng" status="authorized">
-                <part localType="primary_name">State University of New York at Buffalo</part>
-                <part localType="subordinate_name_1">University Council</part>
-            </nameEntry>
-        </identity>]]>
-                    </egXML>
+					<egXML xml:lang="eng"><![CDATA[<identity>
+	<entityType value="corporateBody"/>
+		<nameEntry status="authorized">
+			<part>
+				Society of American Archivists
+			</part>
+		</nameEntry>
+	<otherEntityTypes>
+		<otherEntityType>
+			<term>
+				Professional Association
+			</term>
+		</otherEntityType>
+	</otherEntityTypes>
+</identity>]]
+					</egXML>
                 </div>
                 <div type="exampleText" subtype="description">
                     <egXML xml:lang="eng"><![CDATA[<description>
-            <occupations>
-                <occupation valueURI="http://vocab.getty.edu/page/aat/300025513"
-                    vocabularySourceURI="#cd3">
-                    <term>poets</term>
-                </occupation>
-            </occupations>
-            <places>
-                <place placeType="populatedPlace">
-                    <label valueURI="http://id.loc.gov/authorities/names/n82024107" conventionDeclarationReference="cd4">Rye (N.Y.)</label>
-                    <role>Residence</role>
-                    <geographicCoordinates coordinateSystem="WGS84">N 40°58'814" W 73°41'004"</geographicCoordinates>
-                </place>
-            </places>
-            <existDates>
-                <dateRange localType="existence">
-                    <fromDate standardDate="1906-08-19"/>
-                    <toDate certainty="uncertain" notBefore="1963"/>
-                </dateRange>
-            </existDates>
-            <biogHist>
-                <p>Sjanna Solum (1906-1963?) was an American poet and author of short stories. Solum
-                    was born August 19, 1906, and in 1930 married Harold Irving Beadle, who died
-                    when their three children were still young. Solum lived in Rye, New York and
-                    Greenwich, Connecticut and published as Sjanna Solum throughout her life.</p>
-                <p>Solum's only known book is <span style="font-style:italic">Lodestone</span>
-                    (Dierkes Press, 1950), published as a result of winning the 1949 Dierkes Press
-                    Book Publication Contest; however, during her lifetime she published hundreds of
-                    poems in newspapers and periodicals, including <span style="font-style:italic"
-                        >American Mercury</span> (first appearance), <span style="font-style:italic"
-                        >The American-Scandinavian Review</span>, <span style="font-style:italic"
-                        >The Christian Science Monitor</span>, <span style="font-style:italic">Good
-                        Housekeeping</span>, <span style="font-style:italic">The Folio</span>, <span
-                        style="font-style:italic">The Freeman</span>, <span
-                        style="font-style:italic">Friends Journal</span>, <span
-                        style="font-style:italic">Kaleidograph</span>, <span
-                        style="font-style:italic">The Ladies Home Journal</span>, <span
-                        style="font-style:italic">The Lantern</span>, <span
-                        style="font-style:italic">The Lyric</span>, <span style="font-style:italic"
-                        >New York Herald Tribune</span>, <span style="font-style:italic">The New
-                        York Times</span>, <span style="font-style:italic">Palmetto Voices</span>,
-                        <span style="font-style:italic">The Poetry Chap-book</span>, <span
-                        style="font-style:italic">The Saturday Evening Post</span>, <span
-                        style="font-style:italic">The Saturday Review of Literature</span>, and
-                        <span style="font-style:italic">Yankee</span>. Solum's poem <referringString
-                        target="relation1">"Foggy Night"</referringString> was set to music by the
-                    composer Florence Price.</p>
-                <p>In addition to publication, Solum's professional poetic activity included
-                    readings, lectures and radio broadcast. She was a member of the <referringString target="relation2">Poetry Society
-                        of America</referringString>, the <referringString target="relation3">Pen and Brush Club of Manhattan</referringString> and was included in the
-                    International Who's Who in Poetry (The Cranbrook Tower Press, 1958), which lists
-                    her recreations as Siamese cats and books.</p>
-            </biogHist>
-        </description>]]>
+	<occupations>
+		<occupation valueURI="http://vocab.getty.edu/page/aat/300025513" vocabularySourceURI="#cd3">
+			<term>
+				poets
+			</term>
+		</occupation>
+	</occupations>
+	<places>
+		<place placeType="populatedPlace">
+			<label valueURI="http://id.loc.gov/authorities/names/n82024107" conventionDeclarationReference="cd4">
+				Rye (N.Y.)
+			</label>
+			<role>
+				Residence
+			</role>
+			<geographicCoordinates coordinateSystem="WGS84">
+				N 40°58'814" W 73°41'004"
+			</geographicCoordinates>
+		</place>
+	</places>
+	<existDates>
+		<dateRange localType="existence">
+			<fromDate standardDate="1906-08-19"/>
+			<toDate certainty="uncertain" notBefore="1963"/>
+		</dateRange>
+	</existDates>
+	<biogHist>
+		<p>
+			Sjanna Solum (1906-1963?) was an American poet and author of short stories. Solum was born August 19, 1906, and in 1930 married Harold Irving Beadle, who died when their three children were still young. Solum lived in Rye, New York and Greenwich, Connecticut and published as Sjanna Solum throughout her life.
+		</p>
+		<p>
+			Solum's only known book is <span style="font-style:italic">Lodestone</span> (Dierkes Press, 1950), published as a result of winning the 1949 Dierkes Press Book Publication Contest; however, during her lifetime she published hundreds of poems in newspapers and periodicals, including <span style="font-style:italic">American Mercury</span> (first appearance), <span style="font-style:italic">The American-Scandinavian Review</span>, <span style="font-style:italic">The Christian Science Monitor</span>, <span style="font-style:italic">Good Housekeeping</span>, <span style="font-style:italic">The Folio</span>, <span style="font-style:italic">The Freeman</span>, <span style="font-style:italic">Friends Journal</span>, <span style="font-style:italic">Kaleidograph</span>, <span style="font-style:italic">The Ladies Home Journal</span>, <span style="font-style:italic">The Lantern</span>, <span style="font-style:italic">The Lyric</span>, <span style="font-style:italic">New York Herald Tribune</span>, <span style="font-style:italic">The New York Times</span>, <span style="font-style:italic">Palmetto Voices</span>, <span style="font-style:italic">The Poetry Chap-book</span>, <span style="font-style:italic">The Saturday Evening Post</span>, <span style="font-style:italic">The Saturday Review of Literature</span>, and <span style="font-style:italic">Yankee</span>. Solum's poem <referringString target="relation1">"Foggy Night"</referringString> was set to music by the composer Florence Price.</p>
+		<p>
+			In addition to publication, Solum's professional poetic activity included readings, lectures and radio broadcast. She was a member of the <referringString target="relation2">Poetry Society of America</referringString>, the <referringString target="relation3">Pen and Brush Club of Manhattan</referringString> and was included in the International Who's Who in Poetry (The Cranbrook Tower Press, 1958), which lists her recreations as Siamese cats and books.
+		</p>
+	</biogHist>
+</description>]]>
                     </egXML>
 
                     <egXML xml:lang="eng"><![CDATA[<description>
