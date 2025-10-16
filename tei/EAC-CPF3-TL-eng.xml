@@ -531,17 +531,25 @@
     </cpfDescription>
 </eac>]]>
                     </egXML>
-					<egXML xml:lang="eng"><![CDATA[<eac xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://archivists.org/ns/eac/v3 https://github.com/SAA-SDT/eas-schemas/releases/download/v0.3.0-alpha/eac.xsd" xmlns="https://archivists.org/ns/eac/v3">
+                    <egXML xml:lang="eng"><![CDATA[<eac xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://archivists.org/ns/eac/v3 https://github.com/SAA-SDT/eas-schemas/releases/download/v0.3.0-alpha/eac.xsd" xmlns="https://archivists.org/ns/eac/v3">
     <control addressLineTypeEncoding="EASList" agentTypeEncoding="EASList" audienceEncoding="EASList" contactLineTypeEncoding="EASList" countryEncoding="iso3166-1-alpha-2" dateEncoding="iso8601" identityTypeEncoding="EASList" languageEncoding="iso639-2b" maintenanceStatus="revised" maintenanceEventTypeEncoding="EASList" maintenanceStatusEncoding="EASList" placeTypeEncoding="EASList" publicationStatus="published" publicationStatusEncoding="EASList" referredEntityTypeEncoding="EASList" relationTypeEncoding="EASList" repositoryEncoding="iso15511" scriptEncoding="iso15924" scriptOfElement="Latn" targetTypeEncoding="EASList" statusEncoding="EASList">
-    	<recordId>EACexampleMI</recordId>
+    	<recordId>
+    	   EACexampleMI
+    	</recordId>
         <maintenanceAgency>
-            <agencyCode>NBuU-AR</agencyCode>
-            <agencyName>University Archives</agencyName>
+            <agencyCode>
+                NBuU-AR
+            </agencyCode>
+            <agencyName>
+                University Archives
+            </agencyName>
         </maintenanceAgency>
         <maintenanceHistory>
             <maintenanceEvent maintenanceEventType="revised">
                 <agent agentType="human">
-                    <label>R. Elia</label>
+                    <label>
+                        R. Elia
+                    </label>
                 </agent>
                 <eventDateTime standardDateTime="2025-08-28"/>
             </maintenanceEvent>
@@ -646,7 +654,7 @@
 		    </description>
 		</cpfDescription>
 	</multipleIdentities>
-</eac>]]
+</eac>]]>
 					</egXML>
                 </div>
                 <div type="exampleText" subtype="control">
@@ -800,7 +808,7 @@
 	</nameEntrySet>
 </identity>]]>
                     </egXML>
-					<egXML xml:lang="eng"><![CDATA[<identity>
+                    <egXML xml:lang="eng"><![CDATA[<identity>
 	<entityType value="corporateBody"/>
 		<nameEntry status="authorized">
 			<part>
@@ -814,7 +822,7 @@
 			</term>
 		</otherEntityType>
 	</otherEntityTypes>
-</identity>]]
+</identity>]]>
 					</egXML>
                 </div>
                 <div type="exampleText" subtype="description">
