@@ -206,10 +206,8 @@
             <xi:include href="eac3/en/elem-functionsPerformed.xml" parse="xml"/>
             <xi:include href="eac3/en/elem-generalContext.xml" parse="xml"/>
             <xi:include href="shared/en/elem-geographicCoordinates.xml" parse="xml"/>
-            <!-- xi:include href="shared/en/elem-head.xml" parse="xml"/-->
             <xi:include href="shared/en/elem-identity.xml" parse="xml"/>
             <xi:include href="shared/en/elem-identityId.xml" parse="xml"/>
-            <!--<xi:include href="eac3/en/elem-item.xml" parse="xml"/>-->
             <xi:include href="shared/en/elem-label.xml" parse="xml" />
             <xi:include href="shared/en/elem-language.xml" parse="xml"/>
             <xi:include href="shared/en/elem-languageDeclaration.xml" parse="xml"/>
@@ -308,7 +306,6 @@
             <xi:include href="shared/en/attr-agentTypeEncoding.xml" parse="xml" />
             <xi:include href="shared/en/attr-audience.xml" parse="xml"/>
             <xi:include href="shared/en/attr-audienceEncoding.xml" parse="xml" />
-            <!--<xi:include href="shared/en/attr-base.xml" parse="xml"/>-->
             <xi:include href="shared/en/attr-calendar.xml" parse="xml"/>
             <xi:include href="shared/en/attr-certainty.xml" parse="xml"/>
             <xi:include href="shared/en/attr-contactLineType.xml" parse="xml"/>
@@ -371,15 +368,285 @@
          </div>
       </body>
       <back>
-         <!-- One div for each element same element available as for div in front
-            in the div:
-               @type is always appendix
-               @xml:id is a short name of the appendix
-         -->
-         <!--<div type="appendix" xml:id="appendix1">
-            <head>Title</head>
-            <p>Contents of the appendix; this can also include lists</p>
-         </div>-->
+        <div type="appendix" xml:id="appendix1">
+<div type="exampleText" subtype="eac">
+                <egXML xml:lang="eng"><![CDATA[<
+
+                </egXML>
+                </div>
+               <div type="exampleText" subtype="control">
+                <egXML xml:lang="eng"><![CDATA[<control addressLineTypeEncoding="EASList" agentTypeEncoding="EASList"
+        audienceEncoding="EASList" contactLineTypeEncoding="EASList"
+        countryEncoding="iso3166-1-alpha-2" dateEncoding="iso8601" identityTypeEncoding="EASList"
+        languageEncoding="iso639-2b" maintenanceStatus="revised"
+        maintenanceEventTypeEncoding="EASList" maintenanceStatusEncoding="EASList"
+        placeTypeEncoding="EASList" publicationStatus="published"
+        publicationStatusEncoding="EASList" referredEntityTypeEncoding="EASList"
+        relationTypeEncoding="EASList" repositoryEncoding="iso15511" scriptEncoding="iso15924"
+        scriptOfElement="Latn" targetTypeEncoding="EASList" statusEncoding="EASList">
+        <recordId>21159483</recordId>
+        <maintenanceAgency>
+            <agencyCode>NBuU-AR</agencyCode>
+            <agencyName>University Archives</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent maintenanceEventType="revised">
+                <agent agentType="machine">
+                    <label>CPF merge program</label>
+                </agent>
+                <eventDateTime standardDateTime="2015-09-18">2015-09-18</eventDateTime>
+                <eventDescription>Merge v2.0</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent maintenanceEventType="revised">
+                <agent agentType="machine">
+                    <label>SNAC EAC-CPF Parser</label>
+                </agent>
+                <eventDateTime standardDateTime="2016-08-11T10:39:38"
+                    >2016-08-11T10:39:38</eventDateTime>
+                <eventDescription>Bulk ingest into SNAC Database</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent maintenanceEventType="revised">
+                <agent agentType="human">
+                    <label>R. Elia</label>
+                </agent>
+                <eventDateTime standardDateTime="2025-10-15"/>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <sources>
+            <source id="source1" href="http://search.worldcat.org/title/1181498130">
+                <reference>Handley-Taylor, Geoffrey, <span style="font-style:italic">The
+                        International Who's Who in Poetry</span>, vol. 2, London, The Cranbrook
+                    Tower Press, 1958.</reference>
+            </source>
+            <source id="source2">
+                <reference>"What Poetry Means to Me," manuscript in Sjanna Solum papers, dated 1952
+                    May 16</reference>
+            </source>
+            <source id="source3" href="https://search.worldcat.org/title/25575262">
+                <reference>"Who's Who Poet, Sjanna Solum Living At Kelsey Hill, Deep River," <span
+                        style="font-style:italic">The New Era</span>, Deep River, CT, 1959 April
+                    30.</reference>
+                <citedRange unit="page">11</citedRange>
+            </source>
+        </sources>
+        <conventionDeclaration id="cd1">
+            <reference href="https://viaf.org/">Virtual International Authority File</reference>
+            <shortCode>VIAF</shortCode>
+        </conventionDeclaration>
+        <conventionDeclaration id="cd2">
+            <reference href="https://www.ica.org/standards/RiC/RiC-O_1-1.html">Records in Contexts
+                Ontology (ICA RiC-O) version 1.1</reference>
+            <shortCode>RICO</shortCode>
+        </conventionDeclaration>
+        <conventionDeclaration id="cd3">
+            <reference href="http://vocab.getty.edu/page/aat">Getty Art and Architecture
+                Thesaurus</reference>
+            <shortCode>AAT</shortCode>
+        </conventionDeclaration>
+        <conventionDeclaration id="cd4">
+            <reference href="https://id.loc.gov/authorities/names.html">Library of Congress Name
+                Authority Files</reference>
+            <shortCode>lcnaf</shortCode>
+        </conventionDeclaration>
+        <otherRecordId localType="ARK">http://n2t.net/ark:/99166/w6dz099z</otherRecordId>
+        <otherRecordId vocabularySource="VIAF" vocabularySourceURI="#cd1"
+            valueURI="http://viaf.org/viaf/3162902797577782447">3162902797577782447</otherRecordId>
+    </control>]]>
+                </egXML>
+                  </div>
+           <div type="exampleText" subtype="identity">
+                <egXML xml:lang="eng"><![CDATA[<identity>
+            <entityType value="person"/>
+            <nameEntry audience="external" languageOfElement="eng" scriptOfElement="latn"
+                status="alternative">
+                <part localType="surname">Solum</part>
+                <part localType="forename">Sjanna</part>
+            </nameEntry>
+        </identity>]]>
+                </egXML>
+              <egXML xml:lang="eng"><![CDATA[<identity>
+            <entityType value="corporateBody"/>
+            <nameEntry scriptOfElement="Latn" languageOfElement="eng" status="authorized">
+                <part localType="primary_name">State University of New York at Buffalo</part>
+                <part localType="subordinate_name_1">University Council</part>
+            </nameEntry>
+        </identity>
+           </egXML>
+                </div>
+                   <div type="exampleText" subtype="description">
+                <egXML xml:lang="eng"><![CDATA[<description>
+            <occupations>
+                <occupation valueURI="http://vocab.getty.edu/page/aat/300025513"
+                    vocabularySourceURI="#cd3">
+                    <term>poets</term>
+                </occupation>
+            </occupations>
+            <places>
+                <place placeType="populatedPlace">
+                    <label valueURI="http://id.loc.gov/authorities/names/n82024107" conventionDeclarationReference="cd4">Rye (N.Y.)</label>
+                    <role>Residence</role>
+                    <geographicCoordinates coordinateSystem="WGS84">N 40°58'814" W 73°41'004"</geographicCoordinates>
+                </place>
+            </places>
+            <existDates>
+                <dateRange localType="existence">
+                    <fromDate standardDate="1906-08-19"/>
+                    <toDate certainty="uncertain" notBefore="1963"/>
+                </dateRange>
+            </existDates>
+            <biogHist>
+                <p>Sjanna Solum (1906-1963?) was an American poet and author of short stories. Solum
+                    was born August 19, 1906, and in 1930 married Harold Irving Beadle, who died
+                    when their three children were still young. Solum lived in Rye, New York and
+                    Greenwich, Connecticut and published as Sjanna Solum throughout her life.</p>
+                <p>Solum's only known book is <span style="font-style:italic">Lodestone</span>
+                    (Dierkes Press, 1950), published as a result of winning the 1949 Dierkes Press
+                    Book Publication Contest; however, during her lifetime she published hundreds of
+                    poems in newspapers and periodicals, including <span style="font-style:italic"
+                        >American Mercury</span> (first appearance), <span style="font-style:italic"
+                        >The American-Scandinavian Review</span>, <span style="font-style:italic"
+                        >The Christian Science Monitor</span>, <span style="font-style:italic">Good
+                        Housekeeping</span>, <span style="font-style:italic">The Folio</span>, <span
+                        style="font-style:italic">The Freeman</span>, <span
+                        style="font-style:italic">Friends Journal</span>, <span
+                        style="font-style:italic">Kaleidograph</span>, <span
+                        style="font-style:italic">The Ladies Home Journal</span>, <span
+                        style="font-style:italic">The Lantern</span>, <span
+                        style="font-style:italic">The Lyric</span>, <span style="font-style:italic"
+                        >New York Herald Tribune</span>, <span style="font-style:italic">The New
+                        York Times</span>, <span style="font-style:italic">Palmetto Voices</span>,
+                        <span style="font-style:italic">The Poetry Chap-book</span>, <span
+                        style="font-style:italic">The Saturday Evening Post</span>, <span
+                        style="font-style:italic">The Saturday Review of Literature</span>, and
+                        <span style="font-style:italic">Yankee</span>. Solum's poem <referringString
+                        target="relation1">"Foggy Night"</referringString> was set to music by the
+                    composer Florence Price.</p>
+                <p>In addition to publication, Solum's professional poetic activity included
+                    readings, lectures and radio broadcast. She was a member of the <referringString target="relation2">Poetry Society
+                        of America</referringString>, the <referringString target="relation3">Pen and Brush Club of Manhattan</referringString> and was included in the
+                    International Who's Who in Poetry (The Cranbrook Tower Press, 1958), which lists
+                    her recreations as Siamese cats and books.</p>
+            </biogHist>
+        </description>]]>
+                </egXML>
+
+               <egXML xml:lang="eng"><![CDATA[<description>
+            <functionsPerformed>
+                <functionPerformed valueURI="http://vocab.getty.edu/page/aat/300133011" conventionDeclarationReference="cd3">
+                    <term>administration</term>
+                    <placeName valueURI="http://id.loc.gov/authorities/names/n79075597" conventionDeclarationReference="cd1">Buffalo (N.Y.)</placeName>
+                <descriptiveNote>
+                    <p></p>
+                </descriptiveNote>
+            </functionPerformed>
+                </functionsPerformed>
+            <legalStatuses>
+                <legalStatus>
+                    <term>New York State Department of Education</term>
+                </legalStatus>
+            </legalStatuses>
+            <mandates>
+                <mandate id="mandate1">
+                    <term>New York State Education Law, Article 8, Section 356</term>
+                    <date standardDate="2014">2014</date>
+                    <placeName valueURI="http://vocab.getty.edu/page/tgn/7007568"
+                        vocabularySource="tgn"
+                        vocabularySourceURI="https://www.getty.edu/research/tools/vocabularies/tgn/"
+                        >New York (state)</placeName>
+                </mandate>
+            </mandates>
+            <biogHist>
+                <p>The UB Council serves as the primary oversight and advisory body to the
+                    University at Buffalo and its president and senior officers. Established in
+                    accordance with New York State Education Law, the council consists of ten
+                    members, nine who are appointed to seven-year terms by the governor of the State
+                    of New York, and one student member who is elected to an annual term by the
+                    university’s students.</p>
+                <p>Among the regular duties of the council are reviewing all major plans and
+                    activities of the university in the areas of academics, student life, finances,
+                    buildings and grounds, as well as making recommendations and regulations for the
+                    benefit of the university in matters of community and alumni relations. One of
+                    the council's foremost, albeit infrequent, responsibilities is to recommend
+                    candidates to the state university trustees to serve as campus president.</p>
+                <p>The University Council of the University of Buffalo was established in 1922; its
+                    name changed when the university joined the SUNY system in 1962. See <reference
+                        href="https://findingaids.lib.buffalo.edu/agents/corporate_entities/1566">UB
+                        Council</reference> for records associated with this body before 1962.</p>
+                <p>See the <reference href="https://www.buffalo.edu/ubcouncil.html">UB Council
+                        website</reference> for more information.</p>
+            </biogHist>
+        </description>]]>
+           </egXML>
+                </div>
+
+<div type="exampleText" subtype="relations">
+                <egXML xml:lang="eng"><![CDATA[<relations>
+            <relation id="relation1"
+                relationType="https://www.ica.org/standards/RiC/ontology#AuthorshipRelation"
+                targetType="resource" conventionDeclarationReference="cd2">
+                <label valueURI="https://find.library.upenn.edu/catalog/9923566873503681">Foggy
+                    night They lie, they lie, by David Morton and Florence B. Price, Ms. Coll. 199:
+                    Marian Anderson Collection of Music Manuscripts, folder 1404</label>
+                <dateRange>
+                    <fromDate standardDate="1949-02-05">February 5, 1949</fromDate>
+                    <toDate standardDate="1989">1989</toDate>
+                </dateRange>
+                <role>Lyricist</role>
+            </relation>
+            <relation id="relation2"
+                relationType="https://www.ica.org/standards/RiC/ontology#MembershipRelation"
+                targetType="corporateBody" conventionDeclarationReference="cd2">
+                <label valueURI="http://id.loc.gov/authorities/names/n50065387" conventionDeclarationReference="cd4">Poetry Society of
+                    America</label>
+            </relation>
+            <relation id="relation3"
+                relationType="https://www.ica.org/standards/RiC/ontology#MembershipRelation"
+                targetType="corporateBody" conventionDeclarationReference="cd2">
+                <label valueURI="http://id.loc.gov/authorities/names/no2003010198" conventionDeclarationReference="cd4">Pen and Brush, Inc.</label>
+            </relation>
+        </relations>]]>
+        </egXML>
+   <egXML xml:lang="eng"><![CDATA[<relations>
+            <relation targetType="function">
+                <label valueURI="Example Function Description.xml">Function name (placeholder)</label>
+            </relation>
+            <relation targetType="corporateBody"
+                relationType="https://www.ica.org/standards/RiC/ontology#AgentControlRelation">
+                <label valueURI="https://lccn.loc.gov/n83167936" vocabularySource="LCNAF"
+                    vocabularySourceURI="https://lccn.loc.gov" conventionDeclarationReference="cd1"
+                    >New York (State). Governor</label>
+                <descriptiveNote>
+                    <p>Established in accordance with <referringString referredEntityType="name" target="mandate1">New York State Education Law</referringString>, the council
+                        consists of ten members, nine who are appointed to seven-year terms by the
+                        governor of the State of New York, and one student member who is elected to
+                        an annual term by the university’s students.</p>
+                </descriptiveNote>
+            </relation>
+        </relations>
+</egXML>
+        </div>
+           
+<div type="exampleText" subtype="alternativeSet">
+                <egXML xml:lang="eng"><![CDATA[<alternativeSet>
+	<setComponent href="http://www.womenaustralia.info/biogs/AWE0064b.htm" linkTitle="Hill, Dorothy - Woman - The Australian Women's Register">
+		<componentEntry>
+			The Australian Women's Register record.
+		</componentEntry>
+	</setComponent>
+	<setComponent href="http://nla.gov.au/anbd.aut-an35995526" linkTitle="Hill, Dorothy, 1907-1997 - Full record view - Libraries Australia Search">
+		<componentEntry>
+			Libraries Australia record.
+		</componentEntry>
+	</setComponent>
+	<setComponent href="https://www.eoas.info/biogs/P000494b.htm" linkTitle="Hill, Dorothy - Biographical entry - Encyclopedia of Australian Science">
+		<componentEntry>
+			Encyclopedia of Australian Science record.
+		</componentEntry>
+	</setComponent>
+</alternativeSet>]]>
+                </egXML>
+</div>               
+         </div>
       </back>
    </text>
 </TEI>
